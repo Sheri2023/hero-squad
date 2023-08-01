@@ -1,29 +1,31 @@
 package com.igacheri.dto;
-import com.igacheri.models.hero;
-import com.igacheri.models.squad;
+
+import com.igacheri.models.Hero;
+import com.igacheri.models.Squad;
+
 import java.util.List;
 public class Squadinfo {
-    private squad squad;
-    private List<hero> heroes;
+    private Squad squad;
+    private List<Hero> heroes;
     private int weaknessScore;
     private int strengthScore;
 
     public SquadInfo() {
     }
 
-    public squad getSquad() {
+    public Squad getSquad() {
         return squad;
     }
 
-    public void setSquad(squad squad) {
+    public void setSquad(Squad squad) {
         this.squad = squad;
     }
 
-    public List<hero> getHeroes() {
+    public List<Hero> getHeroes() {
         return heroes;
     }
 
-    public void setHeroes(List<hero> heroes) {
+    public void setHeroes(List<Hero> heroes) {
         this.heroes = heroes;
     }
 
